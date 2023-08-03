@@ -1,0 +1,20 @@
+import java. util. scanner;//program uses class scanner
+public class InfoSystm 
+{
+	//main method execution of java application
+	public static void main (string [] args)
+	{
+		//create scanner to obtain input from command window//
+		Scanner input=new scanner(system.in);
+		
+		int number; //integer number
+		System.out.printf("Enter integer number"): //prompt
+		number=input. nextInt (; //read first number from user
+		
+		if (number % 2 ==0)
+			system. Out. printf (\ n%d is an even number.\", number); “+
+
+		else 
+			System.out.printf ("\n%d is an odd number", number);
+	}
+}
